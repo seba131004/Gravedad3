@@ -28,7 +28,7 @@ posicion_y = 50
 # Se definen la  de los objetos. Posicion inicial igual a 150px.
 posicion_x = 150
 
-# Se define la inercia inicial que ba a tener el objeto tanato vertical como orizontalmente.
+# Se define la inercia inicial que ba a tener el objeto tanato vertical como horizontalmente.
 inercia = [0, 14]
 
 # Se define la masa que ba a tener el objeto.
@@ -51,7 +51,7 @@ while not hecho:
     # --- LA LÓGICA DEL JUEGO DEBERÍA IR AQUÍ
 
 
-    # XXXXXXXXX GRAVEDAD CON REBOTE VERTICAL Y ORIZONTEAL. XXXXXXXXX
+    # XXXXXXXXX GRAVEDAD CON REBOTE VERTICAL Y HORIZONTAL. XXXXXXXXX
 
     # Aumento de la inercia del objeto. Afectado por la fuerza de la gravedad.
     if inercia[0] < gravedad:
